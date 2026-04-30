@@ -1,22 +1,10 @@
-module.exports = {
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
+export default {
   content: [
-    // Example content paths...
-    './public/**/*.html',
-    './src/**/*.{js,jsx,ts,tsx,vue}',
+    "./index.html",
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    container: {
-      center: true,
-    },
-    inset: {
-      '1/2': '50%',
-    },
     extend: {},
   },
-  variants: {},
   plugins: [],
-}
+};
